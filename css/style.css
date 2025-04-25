@@ -92,6 +92,19 @@ a {
     border-top: 2px solid var(--main-color);
 }
 
+/****** Search section ***********/
+
+.search-section {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

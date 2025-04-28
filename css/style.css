@@ -175,7 +175,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 8px;
   border-radius: 25px;
   background-color: #ffffff;
   border: 2px solid #d9d9d9;
@@ -193,6 +193,28 @@ h1 {
 .filter-category {
   font-size: 17px;
   font-weight: 700;
+}
+
+.info-bar {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.info-icon {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-icon i {
+  color: var(--main-color);
+  font-size: 12px;
 }
 
 /****** Hebergements And Populaires ***********/

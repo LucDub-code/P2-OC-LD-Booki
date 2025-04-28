@@ -96,6 +96,7 @@ a {
 
 .search-section {
     display: flex;
+    flex-direction: column;
     margin-bottom: 35px;
 }
 
@@ -105,7 +106,16 @@ h1 {
     margin-bottom: 10px;
 }
 
+.search-bar {
+
+}
+
+.location-icon {
+    background-color: #f2f2f2;
+}
+
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;

@@ -115,13 +115,13 @@ h1 {
   align-items: center;
   border-radius: 15px;
   overflow: hidden;
-  border: 1px solid #f2f2f2;
+  border: 1px solid var(--main-bg-color);
 }
 
 .location-icon {
   height: 100%;
   padding: 25px 20px;
-  background-color: #f2f2f2;
+  background-color: var(--main-bg-color);
   display: inline-block;
   display: flex;
   align-items: center;
@@ -144,7 +144,7 @@ h1 {
 }
 
 .location-input:focus {
-    outline: none;
+  outline: none;
 }
 
 .search {
@@ -156,6 +156,43 @@ h1 {
   padding: 0 20px;
   border: none;
   cursor: pointer;
+}
+
+.filter-bar {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.filter-bar h2 {
+  font-size: 18px;
+}
+
+.filter-btn {
+  margin-left: 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  border: 2px solid #d9d9d9;
+  padding: 0 20px;
+}
+
+.filter-btn:focus {
+  background-color: var(--filter-bg-color);
+}
+
+.filter-btn i {
+  color: var(--main-color);
+}
+
+.filter-category {
+  font-size: 17px;
+  font-weight: 700;
 }
 
 /****** Hebergements And Populaires ***********/

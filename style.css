@@ -70,6 +70,11 @@ a {
   margin-bottom: 80px;
 }
 
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -179,7 +184,7 @@ h1 {
   cursor: pointer;
 }
 
-.filter-btn:focus {
+.filter-btn:hover {
   background-color: var(--filter-bg-color);
 }
 

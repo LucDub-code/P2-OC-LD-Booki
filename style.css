@@ -440,9 +440,8 @@ footer {
     font-size: 13px;
   }
 
-  .activites-cards .activite-card {
-    width: 190px;
-    height: 270px;
+  .activites-cards a {
+    max-width: 190px;
   }
 
   .activites-cards img {

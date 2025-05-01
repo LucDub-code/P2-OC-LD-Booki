@@ -148,7 +148,7 @@ h1 {
   outline: none;
 }
 
-.search {
+.search-btn {
   height: 100%;
   background-color: var(--main-color);
   color: #ffffff;
@@ -157,6 +157,13 @@ h1 {
   padding: 0 20px;
   border: none;
   cursor: pointer;
+}
+
+.search-btn .icon {
+  color: #ffffff;
+  font-size: 17;
+  font-weight: 700;
+  display: none;
 }
 
 .filter-bar {
@@ -499,5 +506,27 @@ footer {
     color: var(--main-color);
     border-top: none;
     border-bottom: 2px solid var(--main-color);
+  }
+
+  .search-bar {
+    overflow: visible;
+  }
+
+  .location-icon {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .search-btn {
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+  }
+
+  .search-btn .text {
+    display: none;
+  }
+
+  .search-btn .icon {
+    display: inline;
   }
 }

@@ -236,7 +236,6 @@ h1 {
 }
 
 .hebergements-and-populaires section {
-  background-color: var(--main-bg-color);
   border-radius: 20px;
   padding: 30px;
 }
@@ -253,6 +252,7 @@ h1 {
 
 .hebergements {
   width: 65%;
+  background-color: var(--main-bg-color);
 }
 
 .hebergements-cards {
@@ -291,6 +291,10 @@ h1 {
   margin-bottom: 4px;
 }
 
+.hebergements-cards .card-subtitle {
+  font-size: 14px;
+}
+
 .hebergements-cards .card-rating {
   margin-bottom: 5px;
 }
@@ -301,12 +305,14 @@ h1 {
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
+  background-color: var(--main-bg-color);
 }
 
 /****** Populaires ***********/
 
 .populaires {
   width: 32%;
+  background-color: var(--main-bg-color);
 }
 
 .populaires-title {
@@ -341,6 +347,7 @@ h1 {
 }
 
 .populaires-cards .card-subtitle {
+  font-size: 14px;
   margin: 0;
 }
 
@@ -473,14 +480,6 @@ footer {
     width: 30%;
   }
 
-  .populaires-cards .card-title {
-    font-size: 14px;
-  }
-
-  .populaires-cards .card-subtitle {
-    font-size: 13px;
-  }
-
   .activites-cards a {
     max-width: 190px;
   }
@@ -569,15 +568,10 @@ footer {
     display: inline;
   }
 
-  .filter-bar {
-    align-items: center;
-  }
-
   .filter-buttons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    justify-content: center;
   }
 
   .filter-category {
@@ -603,8 +597,69 @@ footer {
     align-items: center;
   }
 
-  .hebergements-and-populaires .populaires-cards a {
+  .populaires-cards .card {
+    margin-top: 15px;
+  }
+
+  .populaires-cards a {
     width: 100%;
   }
+
+  .hebergements-and-populaires .hebergements {
+    padding: 20px 20px;
+    margin-top: 15px;
+    background-color: #ffffff;
+  }
+
+  .hebergements-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .hebergements-cards .card {
+    margin-top: 15px;
+  }
+
+  .hebergements-cards a {
+    width: 100%;
+  }
+
+  .hebergements-more-btn {
+    margin-top: 15px;
+    background-color: #ffffff;
+  }
+
+  .activites {
+    padding: 30px;
+  }
+
+  .activites-title {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .activites-cards {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .activites-cards a {
+    max-width: none;
+    width: 100%;
+  }
+  
+  .activites-cards img {
+    height: 140px;
+  }
+
+  .activites-cards a:nth-child(3) .card-title,
+  .activites-cards a:nth-child(4) .card-title {
+    margin: 20px;
+  }
+
+
+  
 
 }

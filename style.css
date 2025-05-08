@@ -59,10 +59,18 @@ a {
   font-size: 16px;
 }
 
-.icon-xs { font-size: 16px; }
-.icon-sm { font-size: 18px; }
-.icon-md { font-size: 20px; }
-.icon-lg { font-size: 22px; }
+.icon-xs {
+  font-size: 16px;
+}
+.icon-sm {
+  font-size: 18px;
+}
+.icon-md {
+  font-size: 20px;
+}
+.icon-lg {
+  font-size: 22px;
+}
 
 /****** Header ***********/
 
@@ -223,6 +231,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .info-icon i {
